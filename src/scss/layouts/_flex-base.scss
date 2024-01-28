@@ -1,7 +1,0 @@
-@use '../abstracts/' as *;
-
-.flex-base {
-    @include flex-base(var(--size-1)) {
-        flex-wrap: wrap;
-    }
-}
