@@ -30,9 +30,11 @@
             }
         }
     }//FONT PROOPS
+
     @each $size, $value in $spacing {
         --#{$size}: #{$value};
     }//SPACING
+    
     @each $theme, $colors in $color-theme {
         @each $color, $value in $colors {
             --clr-#{$theme}-#{$color}: #{$value};

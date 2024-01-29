@@ -18,7 +18,7 @@
     @if $colors == "dark" {
         @each $key, $value in $data {
             .clr-#{$key} {
-                background-color: var(--clr-#{$key}) !important;
+                background-color: var(--clr-#{$key});
             }
         }
     }
