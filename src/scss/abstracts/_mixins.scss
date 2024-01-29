@@ -15,3 +15,8 @@
     gap: $gap;
     @content;
 }
+
+@mixin square($w: 50px, $h: 50px) {
+    width: $w;
+    height: $h;
+}

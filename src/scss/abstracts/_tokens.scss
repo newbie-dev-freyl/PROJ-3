@@ -9,6 +9,9 @@ $body-font-family: var(--ff-primary);
 $header-background-color: var(--clr-header);
 
 //WRAPPER 
-$wrapper-margin-inline: var(--size-4);
+$wrapper-margin-inline: var(--size-6);
 $wrapper-max-width: map-get($breakpoints, xl);
 $wrapper-max-width-narrow: map-get($breakpoints, desktop);
+
+//FLOW
+$flow-margin-top: var(--size-4);

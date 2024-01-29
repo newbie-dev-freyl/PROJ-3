@@ -1,0 +1,6 @@
+@use '../abstracts/' as *;
+
+.flex-group {
+    @include flex-base(var(--size-4)) {
+    }
+}

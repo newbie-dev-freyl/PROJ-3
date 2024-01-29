@@ -1,12 +1,24 @@
 @use '../abstracts/' as *;
 
-.header {
+.site-header {
     background: $header-background-color;
+
+
+    &__inner {
+        @include flex-base() {
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+
+    &__brand {
+        background: rosybrown;
+        display: grid;
+        place-content: center;
+        @include square(60px, 60px);
+        border-radius: var(--bradius-100); 
+        overflow: hidden;
+    }
+
 }
 
-.header-inner {
-    @include flex-base() {
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-}

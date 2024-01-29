@@ -31,9 +31,9 @@
         }
     }//FONT PROOPS
 
-    @each $size, $value in $spacing {
+    @each $size, $value in $sizes {
         --#{$size}: #{$value};
-    }//SPACING
+    }//SIZES
     
     @each $theme, $colors in $color-theme {
         @each $color, $value in $colors {
@@ -57,5 +57,9 @@
             }
         }   
     }//LIGHT & DARK THEME
+
+    @each $key, $value in $border-radius {
+        --bradius-#{$key}: #{$value};
+    }//BORDER RADIUS
 }
 

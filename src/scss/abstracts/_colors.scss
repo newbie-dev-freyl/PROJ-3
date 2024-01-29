@@ -21,6 +21,8 @@ $color-theme: (
         200: $clr-grey-light,
         400: $clr-grey-mid,
         700: $clr-grey-dark,
+        800: $clr-grey-darkest,
+        900: $clr-black,
     ),
 
     primary:(
@@ -43,7 +45,7 @@ $theme: (
         background: $clr-grey-darkest,
         font: $clr-white,
         accent: $clr-green-mid,
-        accent2: $clr-blue-dark,
+        accent2: $clr-blue-mid,
         header: $clr-grey-dark,
         footer: $clr-grey-dark,
     ),
@@ -51,8 +53,8 @@ $theme: (
     light: (
         background: $clr-white,
         accent: $clr-green-dark,
-        accent2: $clr-blue-mid,
-        header: $clr-grey-light,
-        footer: $clr-grey-light,
+        accent2: $clr-blue-dark,
+        header: $clr-blue-light,
+        footer: $clr-blue-light,
     ),
 )
